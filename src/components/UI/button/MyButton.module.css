@@ -1,0 +1,18 @@
+.myBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 40px;
+  height: 52px;
+  background: #ff685b;
+  border-radius: 5px;
+  cursor: pointer;
+  border-color: transparent;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}

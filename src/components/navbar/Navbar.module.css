@@ -1,0 +1,69 @@
+.navbar {
+  height: 79px;
+}
+.navbar_elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar_btns {
+  display: flex;
+  align-items: baseline;
+}
+.header_separator {
+  height: 1px;
+  background: #000000;
+}
+.logo_image {
+  margin: 31.9px 0 25.5px 71.73px;
+  width: 53.27px;
+  height: 22.66px;
+}
+.contacts_link {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: none;
+  margin-right: 59px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.logout_btn {
+  justify-content: center;
+  padding: 8px 60px;
+  width: 189px;
+  height: 40px;
+  margin: 20px 70px 0 0;
+  background: #ffffff;
+  border: 2px solid #ff685b;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ff685b;
+}
+.login_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 375px) {
+  .logo_image {
+    margin-left: 10px;
+    margin-top: 31.9px;
+  }
+  .logout_btn {
+    width: 106px;
+    height: 36px;
+    margin-right: 10px;
+    margin-top: 22px;
+  }
+  .contacts_link {
+    margin-right: 10px;
+    width: 75px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,88 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 141px 197px;
+}
+.main_info {
+  display: flex;
+  flex-direction: column;
+  width: 727px;
+  height: 195px;
+}
+.text_baner h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  /* or 138% */
+  letter-spacing: 0.2px;
+  /* text-color */
+  color: #252b42;
+}
+
+.link_btn_contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 228px;
+  height: 48px;
+  /* btn-text */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* primary-color */
+  color: #ff685b;
+  border: 2px solid #ff685b;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.btn_bar {
+  display: flex;
+  margin-top: 35px;
+}
+@media (max-width: 375px) {
+  .main_container {
+    width: 355px;
+    margin: 55.5px 10px 0 10px;
+  }
+  .main_info {
+    width: 355px;
+    height: 176px;
+  }
+  .text_baner h1 {
+    width: 335px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    /* or 139% */
+    letter-spacing: 0.2px;
+  }
+  .authPage_logout_btn{
+    flex-direction: initial;
+    padding: 0;
+    width: 137px;
+  }
+  .link_btn_contacts{
+    width: 137px;
+  }
+  .info_content {
+    margin-top: 29.5px;
+  }
+  .info_content {
+    display: flex;
+    flex-direction: column;
+  }
+  .info_module {
+    margin: 0 23px 30px 24px;
+  }
+
+}

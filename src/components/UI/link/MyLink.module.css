@@ -1,0 +1,17 @@
+.myLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ff685b;
+  border: 2px solid #ff685b;
+  border-radius: 5px;
+  text-decoration: none;
+}
