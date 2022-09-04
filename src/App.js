@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
-import AppRouter from "./AppRouter";
+import AppRouter from "./components/router/AppRouter";
 import Navbar from "./components/navbar/Navbar";
 import { useEffect } from "react";
 import { setAuth } from "./pages/toolkit/ToolkitSlice";

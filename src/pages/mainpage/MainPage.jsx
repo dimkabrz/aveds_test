@@ -21,6 +21,7 @@ const MainPage = () => {
   const logOut = () => {
     dispatch(setAuth(false));
     navigate("/");
+    localStorage.removeItem('token');
   };
   const [modalActive, setModalActive] = useState(false);
 
