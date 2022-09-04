@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const logOut = () => {
     dispatch(setAuth(false));
-    localStorage.clear();
+    localStorage.removeItem('token');
     navigate("/");
   };
   return (
