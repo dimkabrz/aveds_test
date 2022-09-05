@@ -16,29 +16,28 @@
   font-weight: 700;
   font-size: 58px;
   line-height: 80px;
-  /* or 138% */
   letter-spacing: 0.2px;
-  /* text-color */
   color: #252b42;
 }
-
+.authPage_logout_btn{
+  width:228px;
+  flex-direction: initial;
+  padding: 15px 37px;
+}
 .link_btn_contacts {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 228px;
+  width: 236px;
   height: 48px;
-  /* btn-text */
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
-  /* identical to box height, or 157% */
   text-align: center;
   letter-spacing: 0.2px;
-  /* primary-color */
   color: #ff685b;
   border: 2px solid #ff685b;
   border-radius: 5px;

@@ -65,7 +65,6 @@ const MainPage = () => {
               Рыба текст
             </span>
           </div>
-
         </div>
         <div className={classes.info_module}>
           <div className={classes.info_module_content}>

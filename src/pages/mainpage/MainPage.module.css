@@ -22,12 +22,15 @@
 .info_content {
   margin-top: 96.5px;
 }
+.main_enter_button{
+  width: 128px;
+}
 .link_btn_contacts {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 228px;
+  width: 155px;
   height: 48px;
   /* btn-text */
   font-family: "Montserrat";
@@ -115,11 +118,20 @@
   }
   .info_content {
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
     margin: 29.5px 10px 62px 10px;
   }
   .info_module {
     margin: 0 23px 30px 24px;
+  }
+  .info_module:nth-child(1){
+    order:2;
+  }
+  .info_module:nth-child(2){
+    order:3;
+  }
+  .info_module:nth-child(3){
+    order:-1;
   }
   .link_btn_contacts{
     width: 155px;

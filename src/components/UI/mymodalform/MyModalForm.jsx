@@ -4,7 +4,7 @@ import MyInput from "../myinput/MyInput";
 import MyButton from "../button/MyButton";
 import myJson from "../../../user.json";
 import { setAuth, setRealUser } from "../../../pages/toolkit/ToolkitSlice";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 const MyModalForm = ({ setActive }) => {

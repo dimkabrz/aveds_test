@@ -18,6 +18,7 @@
   margin: 31.9px 0 25.5px 71.73px;
   width: 53.27px;
   height: 22.66px;
+  cursor:pointer;
 }
 .contacts_link {
   font-family: "Open Sans";
@@ -60,6 +61,7 @@
     height: 36px;
     margin-right: 10px;
     margin-top: 22px;
+    padding:6px 20px;
   }
   .contacts_link {
     margin-right: 10px;

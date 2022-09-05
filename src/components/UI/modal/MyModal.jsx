@@ -2,6 +2,9 @@ import React from "react";
 import "./MyModal.css";
 
 const MyModal = ({ active, setActive, children }) => {
+  if(!active) {
+    return null;
+  }
   return (
     <div
       className={active ? "modal active" : "modal"}

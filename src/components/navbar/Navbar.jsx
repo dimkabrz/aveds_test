@@ -29,7 +29,7 @@ const Navbar = () => {
         <MyModalForm setActive={setModalActive} />
       </MyModal>
       <div className={classes.navbar_elements}>
-        <MyLogo className={classes.logo_image} />
+        <MyLogo className={classes.logo_image} onClick={() => navigate('/')}/>
         <div className={classes.navbar_btns}>
           <Link to={`/contacts`} className={classes.contacts_link}>
             Контакты
